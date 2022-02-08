@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <center>
+    <font color="blue" size="20">Calculator</font><br>
+    <img src="calculator.jpg" alt="calculator" height="300" width="400">
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label for="input1">Input1</label>
+                </td>
+                <td>
+                    <input type="number" name="input1" id="input1" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="input2">Input2</label>
+                </td>
+                <td>
+                    <input type="number" name="input2" id="input2" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="operation">Select Operation</label>
+                </td>
+                <td>
+                    <select name="operation" id="operation" required>
+                        <option value="Select..">Select..</option>
+                        <option value="ADD">ADD</option>
+                        <option value="SUBTRACT">SUBTRACT</option>
+                        <option value="MULTIPLY">MULTIPLY</option>
+                        <option value="DIVIDE">DIVIDE</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" name="submit" id="submit">
+                        <img src="calc.jpg" alt="calculate" height="80" width="80" >
+                    </button>
+                </td>
+                <td>
+                    <button type="reset" name="reset" id="reset">
+                        <img src="reset.jpg" alt="calculate" height="80" width="80" >
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</center>    
+</body>
+</html>
